@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site Landing Page for Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+
+  <!-- My CSS Files -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Font Awesome Links -->
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <a style="
+        text-decoration: none;
+        color: black;" href="#" class="logo"><h2>ORIGIN</h2></a>
+    <div class="toggle"><i class="fa fa-bars"></i></div>
+  </header>
+  <div class="banner">
+    <div class="content">
+      <h2>Put on a <span>Happy</span> site </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis illo animi a voluptates optio tenetur nam fugiat laboriosam deleniti, temporibus sapiente quia architecto aspernatur iusto blanditiis fugit doloribus repellendus.</p>
+      <a href="#" class="play" onclick="toggle();"><i class="fa fa-youtube-play"></i> Watch Design </a>
+      <div class="slide"></div>
+      <ul class="sci">
+        <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="trailer">
+    <video src="./vid.mp4" controls="true" autoplay></video>
+    <i class="fa fa-close close" onclick="toggle();"></i>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
